@@ -1,0 +1,94 @@
+html {
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%; 
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+.menu {
+    padding: 0;
+    background-color: rgb(10, 10, 10);
+    text-align: right;
+    display: flex;
+    gap: 19px;
+    border-bottom: 6px solid transparent;
+    justify-content: flex-end;
+    height:50px ;
+    font-size: 20px;
+   
+}
+
+.container {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+    
+
+.logo {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: auto;        
+}
+.ctc {
+    background-color: red;
+    display: inline;
+    padding: 0;      
+}
+.old_hamb {
+    width: 100%;
+    margin-top: 0.5px;
+    
+}
+.text1 h1 {
+    font-size: 60px;
+    border-style: solid;
+    margin-top: 2px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.divbasetext{ /*Criei um div pra tentar aproximar o texto */
+    margin: auto;   
+}
+.basetext {
+    font-size: 40px;   
+    border-style: solid;
+    text-align: center;        
+} 
+
+
+.menu li {
+    list-style-type: none ;
+    display: inline-block;
+    margin-right: 25px;
+        
+}
+
+.menu a {
+    background-color: transparent;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    color: white;
+    
+}
+.menu a:hover{
+    background-color: white;
+    color:black;
+    border-bottom: 10px solid #DA291C;  
+    transition-property:inherit;
+    transition-duration: 0.5s ;
+}
+
+
+
+
+
+
