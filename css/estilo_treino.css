@@ -30,8 +30,8 @@ body {
 }
     
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     position: relative;
     margin: auto;
     transform-style: preserve-3d;          
@@ -49,9 +49,10 @@ body {
 .text1 h1 {
     font-size: 60px;
     border-style: solid;
-    margin-top: 2px;
+    margin-top: 10px;
     text-align: center;
     margin-bottom: 0px;
+    background-color: #DA291C;
 }
 .divbasetext{ /*Criei um div pra tentar aproximar o texto */
     margin: auto;   
