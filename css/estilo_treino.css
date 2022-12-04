@@ -47,7 +47,7 @@ body {
     
 }
 .text1 h1 {
-    font-size: 60px;
+    font-size: 45px;
     border-style: solid;
     margin-top: 10px;
     text-align: center;
@@ -58,9 +58,13 @@ body {
     margin: auto;   
 }
 .basetext {
-    font-size: 40px;   
+    font-size: 25px;   
     border-style: solid;
-    text-align: justify;        
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 } 
 
 
